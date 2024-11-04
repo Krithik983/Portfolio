@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+
+.nav-menu li {
+  position: relative;
+  list-style: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #fff; /* Initial color of the text */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-menu li:hover {
+  color: #a81fca; /* Color when hovered */
+}
+
+.nav-menu li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: linear-gradient(267deg, #6a0dad 0.36%, #9a31e4 102.06%);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.5s;
+}
+
+.nav-menu li:hover::after {
+  width: 100%;
+}
+
+img {
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+  transform: 0.5s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #6a0dad 0.36%, #9a31e4 102.06%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.nav-connect:hover {
+  transform: scale(1.05);
+}
