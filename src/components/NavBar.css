@@ -10,6 +10,7 @@
   list-style: none;
   gap: 60px;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .nav-menu li {
@@ -60,6 +61,7 @@ img:hover {
   font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
+  margin-bottom: 50px;
 }
 .nav-connect:hover {
   transform: scale(1.05);
