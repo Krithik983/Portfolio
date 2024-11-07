@@ -8,8 +8,8 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile} alt="" />
       <h1>
-        <span>I'm Krithik Raj, </span>a passionate and detail-oriented software
-        developer based in Mangalore, India.
+        <span>I'm Krithik Raj, </span>software developer based in Mangalore,
+        India.
       </h1>
       <p>
         With a strong foundation in web technologies, I specialize in building
