@@ -12,7 +12,12 @@
   font-size: 20px;
   margin-bottom: 50px;
 }
-
+.resume-link {
+  text-decoration: none;
+}
+.resume-link:hover {
+  color: #a81fca; /* Change to any color you prefer */
+}
 .nav-menu li {
   position: relative;
   list-style: none;

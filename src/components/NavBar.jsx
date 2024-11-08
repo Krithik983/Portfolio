@@ -37,9 +37,15 @@ const NavBar = () => {
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#portfolio">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="anchor-link"
+            offset={50}
+          >
             Portfolio
-          </AnchorLink>
+          </a>
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#contact">
