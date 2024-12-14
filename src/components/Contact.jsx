@@ -61,12 +61,23 @@ const Contact = () => {
           </div>
         </div>
         <form ref={formRef} onSubmit={onSubmit} className="contact-right">
-          <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" />
-          <label htmlFor="">Your Email</label>
-          <input type="text" placeholder="Enter your email" name="email" />
-          <label htmlFor="">Write your message here</label>
+          <label htmlFor="name">Your Name</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+          />
+          <label htmlFor="email">Your Email</label>
+          <input
+            id="email"
+            type="text"
+            placeholder="Enter your email"
+            name="email"
+          />
+          <label htmlFor="message">Write your message here</label>
           <textarea
+            id="message"
             name="message"
             rows="8"
             placeholder="Enter your message"
