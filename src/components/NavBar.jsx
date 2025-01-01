@@ -48,6 +48,17 @@ const NavBar = () => {
           </a>
         </li>
         <li>
+          <a
+            href="https://github.com/Krithik983"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="anchor-link"
+            offset={50}
+          >
+            Github
+          </a>
+        </li>
+        <li>
           <AnchorLink className="anchor-link" offset={50} href="#contact">
             Contact
           </AnchorLink>
